@@ -51,11 +51,27 @@ const events = [
         description: "",
     },
     {
+        name: "Lunch",
+        type: "Meal",
+        day: "Friday",
+        time: "12:45pm -2:00pm",
+        room: "Grand Ballroom",
+        description: "",
+    },
+    {
         name: "Registration",
         type: "Registration",
         day: "Saturday",
         time: "7:00am - 9:00am",
         location: "",
+        description: "",
+    },
+    {
+        name: "Lunch",
+        type: "Meal",
+        day: "Saturday",
+        time: "12:15pm - 1:30pm",
+        room: "Grand Ballroom",
         description: "",
     },
     {
