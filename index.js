@@ -42,14 +42,30 @@ const events = [
         location: "Olympus High School\n4055 S 2300 E,\nHolladay, UT 84124",
         description: "",
     },
-    // {
-    //     name: "",
-    //     type: "Social",
-    //     day: "Friday",
-    //     time: "",
-    //     location: "",
-    //     description: "",
-    // },
+    {
+        name: "Registration",
+        type: "Registration",
+        day: "Friday",
+        time: "7:00am - 9:00am",
+        location: "",
+        description: "",
+    },
+    {
+        name: "Registration",
+        type: "Registration",
+        day: "Saturday",
+        time: "7:00am - 9:00am",
+        location: "",
+        description: "",
+    },
+    {
+        name: "Testimony Meeting",
+        type: "Meeting",
+        day: "Sunday",
+        time: "9:00am - 11:00am",
+        room: "",
+        description: "",
+    }
 ];
 
 const PORT = 5050;
