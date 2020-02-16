@@ -8,6 +8,7 @@ const time = "2:00pm - 3:00pm";
 module.exports = {
     name: "Breakout 2",
     time,
+    type: breakout,
     selectedSession: null,
     sessions: [
         {
