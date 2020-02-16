@@ -3,18 +3,15 @@ const demographics = require('../demographics');
 const { breakout, panel, closed } = require('./event-types');
 const { rooms } = require('../locations');
 
-const time = "3:15pm - 4:15pm";
 
 module.exports = {
     title: "Breakout 5",
-    time,
+    time: "3:15pm - 4:15pm",
     type: breakout,
     selectedSession: null,
     sessions: [
         {
             title: "A Discussion on Healthy Male Friendships",
-            time,
-            type: panel,
             room: rooms.wasatch,
             demographic: demographics.ssa_men,
             moderator: speakers.brent_ebmeyer,
@@ -30,8 +27,6 @@ module.exports = {
         },
         {
             title: "Joyfully Navigating Faith & Orientation",
-            time,
-            type: panel,
             room: rooms.deer,
             demographic: demographics.general,
             speakers: [
@@ -41,8 +36,6 @@ module.exports = {
         },
         {
             title: '"Let it Go!" - The Healing Power of True Surrender',
-            time,
-            type: breakout,
             room: rooms.brighton_alta,
             demographic: demographics.general,
             speakers: [
@@ -52,8 +45,6 @@ module.exports = {
         },
         {
             title: '"Broken Together": Living and Thriving in a Mixed-orientation Marriage',
-            time,
-            type: breakout,
             room: rooms.sundance,
             demographic: demographics.ssa_women,
             speakers: [
@@ -63,8 +54,6 @@ module.exports = {
         },
         {
             title: "How I Fit in God's Plan",
-            time,
-            type: breakout,
             room: rooms.powder,
             demographic: demographics.general,
             speakers: [
@@ -76,8 +65,6 @@ module.exports = {
         },
         {
             title: "Survival Tips for Family Mental Health and Happiness",
-            time,
-            type: breakout,
             room: rooms.snowbird,
             demographic: demographics.family_friends,
             speakers: [

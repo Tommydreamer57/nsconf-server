@@ -3,18 +3,15 @@ const demographics = require('../demographics');
 const { breakout, panel, closed } = require('./event-types');
 const { rooms } = require('../locations');
 
-const time = "3:15pm - 4:15pm";
 
 module.exports = {
     title: "Breakout 3",
-    time,
+    time: "3:15pm - 4:15pm",
     type: breakout,
     selectedSession: null,
     sessions: [
         {
             title: "Staying Strong while going through Church Discipline",
-            time,
-            type: panel,
             room: rooms.wasatch,
             demographic: demographics.general,
             moderator: speakers.kurt_francom,
@@ -29,8 +26,6 @@ module.exports = {
         },
         {
             title: "Alone, But Not Lonely",
-            time,
-            type: panel,
             room: rooms.deer,
             demographic: demographics.general,
             moderator: speakers.alex_lindstrom,
@@ -43,8 +38,6 @@ module.exports = {
         },
         {
             title: "Do I Have to Choose Between My Child and My Faith?",
-            time,
-            type: breakout,
             room: rooms.brighton_alta,
             demographic: demographics.family_friends,
             speakers: [
@@ -55,8 +48,6 @@ module.exports = {
         },
         {
             title: "Spouses Facilitated Discussion: Closed Door Session",
-            time,
-            type: closed,
             room: rooms.sundance,
             demographic: demographics.spouses,
             speakers: [
@@ -66,8 +57,6 @@ module.exports = {
         },
         {
             title: "Married Men Facilitated Discussion: Closed Door Session",
-            time,
-            type: closed,
             room: rooms.powder,
             demographic: demographics.ssa_men,
             facilitator: speakers.jeff_bennion,
@@ -75,8 +64,6 @@ module.exports = {
         },
         {
             title: "It is Christ that Makes Us Whole",
-            time,
-            type: breakout,
             room: rooms.snowbird,
             demographic: demographics.general,
             speakers: [
@@ -86,8 +73,6 @@ module.exports = {
         },
         {
             title: "Trans Spouses Facilitated Discussion: Closed Door Session",
-            time,
-            type: closed,
             room: rooms.cottonwood,
             demographic: demographics.spouses,
             facilitator: speakers.shannon_rants,

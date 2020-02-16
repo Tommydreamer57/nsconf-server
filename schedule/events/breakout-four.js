@@ -1,20 +1,17 @@
 const speakers = require('../speakers');
 const demographics = require('../demographics');
-const { breakout, panel, closed } = require('./event-types');
+const { breakout } = require('./event-types');
 const { rooms } = require('../locations');
 
-const time = "10:30am - 12:00pm";
 
 module.exports = {
     title: "Breakout 4",
-    time,
+    time: "10:30am - 12:00pm",
     type: breakout,
     selectedSession: null,
     sessions: [
         {
             title: "Bearing one another's burdens: How to lighten the burdens of your SSA / Trans members",
-            time,
-            type: panel,
             room: rooms.wasatch,
             demographic: demographics.leaders,
             moderator: speakers.richard_ostler,
@@ -28,8 +25,6 @@ module.exports = {
         },
         {
             title: "Keys to Flourishing as a Sexual Minority: What the Research Says",
-            time,
-            type: breakout,
             room: rooms.deer,
             demographic: demographics.general,
             speakers: [
@@ -40,8 +35,6 @@ module.exports = {
         },
         {
             title: "Healthy Attachment, Connection, and the Power of Relationships in Recovery from Unwanted Thinking and Addictive Behaviors",
-            time,
-            type: breakout,
             room: rooms.brighton_alta,
             demographic: demographics.ssa_men,
             speakers: [
@@ -51,8 +44,6 @@ module.exports = {
         },
         {
             title: "Stepping into the Darkness in Faith, Honest Dialogue With Your Transgender Members",
-            time,
-            type: closed,
             room: rooms.sundance,
             demographic: demographics.leaders,
             speakers: [
@@ -63,8 +54,6 @@ module.exports = {
         },
         {
             title: "How to Heal From Broken Female Connections",
-            time,
-            type: closed,
             room: rooms.powder,
             demographic: demographics.ssa_women,
             speakers: [
@@ -74,8 +63,6 @@ module.exports = {
         },
         {
             title: "Navigating Through Betrayal Trauma in Marriage",
-            time,
-            type: breakout,
             room: rooms.snowbird,
             demographic: demographics.couples,
             speakers: [

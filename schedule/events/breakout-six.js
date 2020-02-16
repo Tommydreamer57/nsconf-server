@@ -3,18 +3,15 @@ const demographics = require('../demographics');
 const { breakout, panel, closed } = require('./event-types');
 const { rooms } = require('../locations');
 
-const time = "3:15pm - 4:15pm";
 
 module.exports = {
     title: "Breakout 6",
-    time,
+    time: "3:15pm - 4:15pm",
     type: breakout,
     selectedSession: null,
     sessions: [
         {
             title: "Ministering to Those Who Question",
-            time,
-            type: breakout,
             room: rooms.wasatch,
             demographic: demographics.leaders,
             speakers: [
@@ -24,8 +21,6 @@ module.exports = {
         },
         {
             title: "Navigating the Complex Conversations in Marriage",
-            time,
-            type: panel,
             room: rooms.deer,
             demographic: demographics.couples,
             moderator: speakers.jeff_case,
@@ -38,8 +33,6 @@ module.exports = {
         },
         {
             title: "Toxicity and Community",
-            time,
-            type: panel,
             room: rooms.brighton_alta,
             demographic: demographics.trans,
             moderator: speakers.lucas_jones,
@@ -53,8 +46,6 @@ module.exports = {
         },
         {
             title: "SSA Women Facilitated Discussion: Closed Door Session",
-            time,
-            type: closed,
             room: rooms.sundance,
             demographic: demographics.ssa_women,
             facilitator: speakers.shannon_rants,
@@ -62,8 +53,6 @@ module.exports = {
         },
         {
             title: "Rise to the Challenge: A New Ministry",
-            time,
-            type: breakout,
             room: rooms.powder,
             demographic: demographics.family_friends,
             speakers: [
@@ -73,8 +62,6 @@ module.exports = {
         },
         {
             title: "Experience Yourself Giving it to Christ",
-            time,
-            type: breakout,
             room: rooms.snowbird,
             demographic: demographics.general,
             speakers: [
