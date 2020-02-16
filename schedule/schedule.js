@@ -5,7 +5,7 @@ const sunday = require('./days/sunday');
 
 module.exports = {
     updatedAt: Date.now(),
-    schedule: [
+    days: [
         thursday,
         friday,
         saturday,
