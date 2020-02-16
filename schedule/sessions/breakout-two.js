@@ -34,7 +34,7 @@ module.exports = [
         description: "The transformation to worthy manhood can be a challenging road.  Our Heavenly Father wants to guide us through the process of overcoming a brokenness in one’s own manhood to a full embrace of the man He wants us to become, and to honor His other sons around us.  Listen to the journeys of three individuals as they have found worth in their lives.",
     },
     {
-        title: " Finding Belonging While Feeling You Don't Fit the Traditional Mold",
+        title: "Finding Belonging While Feeling You Don't Fit the Traditional Mold",
         time,
         type: breakout,
         room: rooms.brighton_alta,
@@ -63,10 +63,10 @@ module.exports = [
         room: rooms.powder,
         demographic: demographics.trans,
         speakers: [
-            speakers.brandon_jensen,
+            speakers.brandon_jenson,
             speakers.nick_gregory,
             speakers.landon_phillips,
-            speakers.katherine_hermann,
+            speakers.katherine_herrmann,
         ],
         description: "Is it possible to maintain hope while dealing with the challenges of gender dysphoria? It can oftentimes be a lonely and challenging road but one that is possible. Come hear the stories of four different individuals as they share their stories on what has brought them hope and how they have been able to build Zion and increase faith in their own lives and others.",
     },

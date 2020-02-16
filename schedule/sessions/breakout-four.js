@@ -51,7 +51,8 @@ module.exports = [
         room: rooms.sundance,
         demographic: demographics.leaders,
         speakers: [
-            speakers.karen_c_and_michael_edwards,
+            speakers.karen_c,
+            speakers.michael_edwards,
         ],
         description: "",
     },
