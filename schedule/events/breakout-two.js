@@ -1,13 +1,13 @@
 const speakers = require('../speakers');
 const demographics = require('../demographics');
-const { breakout, panel } = require('./event-types');
+const { breakout_group, panel } = require('./event-types');
 const { rooms } = require('../locations');
 
 
 module.exports = {
     title: "Breakout 2",
     time: "2:00pm - 3:00pm",
-    type: breakout,
+    type: breakout_group,
     selectedSession: null,
     sessions: [
         {
