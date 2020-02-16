@@ -13,14 +13,14 @@ module.exports = {
         friday: {
             title: "Lunch",
             time: "12:45pm -2:00pm",
-            type: eventTypes.meal,
+            type: eventTypes.social,
             room: rooms.ballroom,
             description: "",
         },
         saturday: {
             title: "Lunch",
             time: "12:15pm - 1:30pm",
-            type: eventTypes.meal,
+            type: eventTypes.social,
             room: rooms.ballroom,
             description: "",
         },
