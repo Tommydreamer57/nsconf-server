@@ -4,6 +4,7 @@ const speakers = require('../speakers');
 
 module.exports = {
     one: {
+        title: "Keynote Performance",
         time: "9:00am - 10:45am",
         type: keynote,
         room: ballroom,
@@ -12,6 +13,7 @@ module.exports = {
         ],
     },
     two: {
+        title: "Keynote",
         time: "4:30pm - 5:45pm",
         type: keynote,
         room: ballroom,
@@ -21,6 +23,7 @@ module.exports = {
         ],
     },
     three: {
+        title: "Keynote",
         time: "9:00am - 10:15am",
         type: keynote,
         room: ballroom,
@@ -29,6 +32,7 @@ module.exports = {
         ],
     },
     four: {
+        title: "Keynote",
         time: "4:00pm - 5:30pm",
         type: keynote,
         room: ballroom,
