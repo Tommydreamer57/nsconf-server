@@ -14,6 +14,7 @@ module.exports = {
         deer: "Deer Valley",
         exec: "Executive Board",
         ballroom: "Grand Ballroom",
+        arches: "Arches Ballroom",
         powder: "Powder Mountain",
         sidewinder: "Sidewinder",
         snowbird: "Snowbird",

@@ -1,13 +1,17 @@
-const keynotes = require('../sessions/keynotes');
-const breakouts = require('../sessions/breakouts');
-const other = require('../other-events');
+const keynotes = require('../events/keynotes');
+const breakouts = require('../events/breakouts');
+const other = require('../events/other-events');
 
-module.exports = [
-    other.registration,
-    keynotes.one,
-    breakouts.one,
-    other.lunch.friday,
-    breakouts.two,
-    breakouts.three,
-    keynotes.two,
-];
+module.exports = {
+    day: "Friday",
+    date: new Date('March 6, 2020'),
+    events: [
+        other.registration,
+        keynotes.one,
+        breakouts.one,
+        other.lunch.friday,
+        breakouts.two,
+        breakouts.three,
+        keynotes.two,
+    ],
+};

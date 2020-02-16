@@ -1,11 +1,9 @@
-const eventTypes = require('../event-types');
+const { sundaySharing } = require('../events/other-events');
 
-module.exports = [
-    {
-        name: "Testimony Meeting",
-        time: "9:00am - 11:00am",
-        type: eventTypes.social,
-        room: "",
-        description: "",
-    },
-];
+module.exports = {
+    day: "Sunday",
+    date: new Date('March 8, 2020'),
+    events: [
+        sundaySharing,
+    ],
+};

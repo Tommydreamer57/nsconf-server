@@ -1,4 +1,4 @@
-const { keynote } = require('../event-types');
+const { keynote } = require('./event-types');
 const { rooms: { ballroom } } = require('../locations');
 const speakers = require('../speakers');
 

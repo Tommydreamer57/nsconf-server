@@ -4,8 +4,11 @@ const saturday = require('./days/saturday');
 const sunday = require('./days/sunday');
 
 module.exports = {
-    thursday,
-    friday,
-    saturday,
-    sunday,
+    updatedAt: Date.now(),
+    schedule: [
+        thursday,
+        friday,
+        saturday,
+        sunday,
+    ],
 };

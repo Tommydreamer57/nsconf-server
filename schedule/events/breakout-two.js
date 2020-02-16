@@ -1,6 +1,6 @@
 const speakers = require('../speakers');
 const demographics = require('../demographics');
-const { breakout, panel } = require('../event-types');
+const { breakout, panel } = require('./event-types');
 const { rooms } = require('../locations');
 
 const time = "2:00pm - 3:00pm";
