@@ -35,17 +35,17 @@ module.exports = {
     templeSessions: {
         bountiful: {
             title: "Temple Session - Bountiful",
-            time: "1:00pm (meet in chapel at 12:30pm)",
+            time: "12:30pm",
             type: eventTypes.social,
             location: locations.bountiful,
-            description: "",
+            description: "Meet in chapel at 12:30 for the 1:00 session.",
         },
         jordan: {
             title: "Temple Session - Jordan River",
-            time: "1:00pm (meet in chapel at 12:30pm)",
+            time: "12:30pm",
             type: eventTypes.social,
             location: locations.jordan,
-            description: "",
+            description: "Meet in chapel at 12:30 for the 1:00 session.",
         },
     },
     qpr: {
