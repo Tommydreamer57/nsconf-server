@@ -2,7 +2,7 @@ const express = require('express');
 const cors = require('cors');
 const events = require('./schedule/schedule');
 
-const PORT = 5050;
+const PORT = 5051;
 
 const APP = express();
 
