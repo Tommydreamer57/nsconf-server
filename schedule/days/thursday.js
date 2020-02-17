@@ -10,7 +10,7 @@ const {
 
 module.exports = {
     day: "Thursday",
-    date: new Date('March 5 2020'),
+    date: 'March 5 2020',
     events: [
         bountiful,
         jordan,

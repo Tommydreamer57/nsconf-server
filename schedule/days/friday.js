@@ -4,7 +4,7 @@ const other = require('../events/other-events');
 
 module.exports = {
     day: "Friday",
-    date: new Date('March 6, 2020'),
+    date: 'March 6, 2020',
     events: [
         other.registration,
         keynotes.one,
