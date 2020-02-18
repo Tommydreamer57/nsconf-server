@@ -2,7 +2,7 @@ const thursday = require('./days/thursday');
 const friday = require('./days/friday');
 const saturday = require('./days/saturday');
 const sunday = require('./days/sunday');
-const { breakout_group, keynote, social } = require('./events/event-types');
+const { breakout_group, keynote, social, session } = require('./events/event-types');
 
 const replaceSpaces = (str = '') => str.replace(/\s+/g, '+');
 
@@ -43,7 +43,7 @@ module.exports = {
                     sessions: event.sessions.map(addFeedbackURLToSession)
                 }
                 :
-                event.type === keynote ?
+                [keynote, session].includes(event.type) ?
                     addFeedbackURLToSession(event)
                     :
                     event.type === social ?
