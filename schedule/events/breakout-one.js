@@ -51,7 +51,7 @@ module.exports = {
             title: "Cycle of Connection and Disconnection in Marriage (Healthy patterns relating to self, spouse, and God.)",
             room: rooms.powder,
             demographic: demographics.couples,
-            speaker: [
+            speakers: [
                 speakers.shannon_rants,
             ],
             description: 'Needing to feel hope in your marriage? Stuck in a rut? Repeating unhealthy patterns in your relationship? Come and explore our "Cycle of Connection" and how we can continue to move towards healthy connection even in the midst of feeling disconnected or discouraged.',
@@ -60,7 +60,7 @@ module.exports = {
             title: "Using Revelation to Nurture a Personal Relationship with God",
             room: rooms.snowbird,
             demographic: demographics.general,
-            speaker: [
+            speakers: [
                 speakers.becky_edwards,
             ],
             description: "What is one thing has helped you most to feel God’s love, presence, power, and two-way communication? For me, the answer is Heaven Journaling, a simple process I’ve taught to thousands around the globe that combines prayer, scriptures, and writing to open the windows of heaven’s revelation. President Nelson has been urging us to improve our ability and capacity to receive personal revelation, and this session will be a hands-on experience with this simple yet powerful process.",
