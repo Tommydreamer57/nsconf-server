@@ -1,6 +1,6 @@
 const speakers = require('../speakers');
 const demographics = require('../demographics');
-const { breakout_group, panel, closed } = require('./event-types');
+const { breakout_group, breakout_session, panel, closed } = require('./event-types');
 const { rooms } = require('../locations');
 
 
