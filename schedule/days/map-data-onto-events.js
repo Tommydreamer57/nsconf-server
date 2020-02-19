@@ -6,6 +6,7 @@ module.exports = data => event => ({
     ...event.type === breakout_group && {
         sessions: event.sessions.map(session => ({
             type: breakout_session,
+            time: event.time,
             ...data,
             ...session,
         })),
