@@ -6,7 +6,7 @@ const { rooms } = require('../locations');
 
 module.exports = {
     title: "Breakout 5",
-    time: "3:15pm - 4:15pm",
+    time: "1:30pm - 2:30pm",
     type: breakout_group,
     selectedSession: null,
     sessions: [
