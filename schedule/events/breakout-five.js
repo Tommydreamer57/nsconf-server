@@ -48,7 +48,8 @@ module.exports = {
             room: rooms.sundance,
             demographic: demographics.ssa_women,
             speakers: [
-                speakers.tami_and_ben_wright,
+                speakers.tami_wright,
+                speakers.ben_wright,
             ],
             description: "Ben and Tami’s anthem of their love is encapsulated in a song by Christian music band Casting Crowns called “Broken Together”. Coming to terms with Tami’s bisexuality has been one of the heaviest yet beautiful challenges she and Ben have faced in their marriage to date. Truly this challenge “broke” them—brought them to their knees and further into each other’s arms as they sought mutual forgiveness, compassion, and heavenly understanding. Learning to be authentic and transparent in the context of their mixed orientation marriage has in reality brought them closer together in a way that only the Atonement of Jesus Christ could make possible. They have learned that being mortal—no matter who you are—means being broken; that Christ’s light can only shine and heal through brokenness; and that He is The One being who makes it possible to live and love “Broken Together.”",
         },
