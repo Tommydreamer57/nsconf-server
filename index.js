@@ -1,8 +1,14 @@
+require('dotenv').config();
 const express = require('express');
 const cors = require('cors');
 const schedule = require('./schedule/schedule');
-const timestamp = Date.now();
 const feedback = require('./feedback/feedback');
+
+const {
+    env: {
+        timestamp = 1000,
+    },
+} = process;
 
 const PORT = 5051;
 
