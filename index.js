@@ -3,6 +3,7 @@ const express = require('express');
 const cors = require('cors');
 const schedule = require('./schedule/schedule');
 const feedback = require('./feedback/feedback');
+const homeLinks = require('./home-links/home-links');
 
 const {
     env: {
@@ -19,5 +20,6 @@ APP.use(cors());
 APP.get('/api/schedule', (req, res) => res.status(200).send(schedule));
 APP.get('/api/timestamp', (req, res) => res.status(200).json(timestamp));
 APP.get('/api/feedback', (req, res) => res.status(200).send(feedback));
+APP.get('/api/home', (req, res) => res.status(200).send(homeLinks));
 
 APP.listen(PORT, () => console.log(`NSCONF-server running on ${PORT}`));
