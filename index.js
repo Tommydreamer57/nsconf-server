@@ -28,4 +28,11 @@ APP.get('/api', (req, res) => res.status(200).send({
     homeLinks,
 }));
 
+const sendDataWithTimestamp = (res, data) => res.status(200).send({ data, timestamp });
+
+APP.get('/api/2/schedule', (req, res) => sendDataWithTimestamp(res, schedule));
+APP.get('/api/2/timestamp', (req, res) => sendDataWithTimestamp(res, timestamp));
+APP.get('/api/2/feedback', (req, res) => sendDataWithTimestamp(res, feedback));
+APP.get('/api/2/home', (req, res) => sendDataWithTimestamp(res, homeLinks));
+
 APP.listen(PORT, () => console.log(`NSCONF-server running on ${PORT}`));
