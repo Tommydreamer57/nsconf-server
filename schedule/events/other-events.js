@@ -54,7 +54,6 @@ module.exports = {
         title: "QPR Suicide Prevention Training",
         time: "3:00pm - 5:00pm",
         type: eventTypes.session,
-        location: locations.sheraton,
         room: rooms.deer,
         description: 'Suicide awareness, prevention, and training have saved many lives. This in-depth hands-on session is twofold; first, Jeff Case will focus on the key identifiers associated with individuals contemplating suicide along with the need for training people in suicide prevention. Second, Don and Deborah Coe will provide attendees with the opportunity to receive training in the QPR (Question, Persuade, and Refer) model. People trained in the QPR model learn how to recognize the warning signs of a suicide crisis and offer "buddy aid."',
     },
@@ -70,6 +69,13 @@ module.exports = {
         time: "6:00pm - 8:00pm",
         type: eventTypes.social,
         location: locations.olympus,
+        description: "",
+    },
+    millennialSocial: {
+        title: "Young Adult Social (ages 18-30)",
+        time: "7:00pm - 10:00pm",
+        type: eventTypes.social,
+        room: "TBD",
         description: "",
     },
 };

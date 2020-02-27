@@ -17,5 +17,6 @@ module.exports = {
         breakouts.two,
         breakouts.three,
         keynotes.two,
+        other.millennialSocial,
     ].map(mapDataOntoEvent({ day, date })),
 };

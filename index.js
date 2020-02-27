@@ -21,5 +21,11 @@ APP.get('/api/schedule', (req, res) => res.status(200).send(schedule));
 APP.get('/api/timestamp', (req, res) => res.status(200).json(timestamp));
 APP.get('/api/feedback', (req, res) => res.status(200).send(feedback));
 APP.get('/api/home', (req, res) => res.status(200).send(homeLinks));
+APP.get('/api', (req, res) => res.status(200).send({
+    timestamp,
+    schedule,
+    feedback,
+    homeLinks,
+}));
 
 APP.listen(PORT, () => console.log(`NSCONF-server running on ${PORT}`));
