@@ -54,7 +54,7 @@ module.exports = {
         },
         {
             title: "How to Heal From Broken Female Connections",
-            room: rooms.powder,
+            room: rooms.zion,
             demographic: demographics.ssa_women,
             speakers: [
                 speakers.shannon_rants,

@@ -21,5 +21,6 @@ module.exports = {
         sundance: "Sundance",
         wasatch: "Wasatch",
         wildcat: "Wildcat",
+        zion: "Zion",
     },
 };

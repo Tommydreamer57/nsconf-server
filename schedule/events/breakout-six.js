@@ -53,7 +53,7 @@ module.exports = {
         },
         {
             title: "Rise to the Challenge: A New Ministry",
-            room: rooms.powder,
+            room: rooms.zion,
             demographic: demographics.family_friends,
             speakers: [
                 speakers.lisa_arnold,

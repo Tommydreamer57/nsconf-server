@@ -55,7 +55,7 @@ module.exports = {
         },
         {
             title: "How I Fit in God's Plan",
-            room: rooms.powder,
+            room: rooms.zion,
             demographic: demographics.general,
             speakers: [
                 speakers.ky_merkley,
