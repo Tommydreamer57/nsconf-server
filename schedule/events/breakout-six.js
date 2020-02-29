@@ -25,7 +25,7 @@ module.exports = {
             demographic: demographics.couples,
             moderator: speakers.jeff_case,
             panelists: [
-                speakers.ryan_and_kerrie_warnick,
+                speakers.daniel_and_emma_atwell,
                 speakers.erick_and_kathi_hacking,
                 speakers.ricardo_and_elizabeth_rosas,
             ],

@@ -57,7 +57,6 @@ module.exports = {
             room: rooms.powder,
             demographic: demographics.trans,
             speakers: [
-                speakers.brandon_jenson,
                 speakers.nick_gregory,
                 speakers.landon_phillips,
                 speakers.katherine_herrmann,
