@@ -24,14 +24,13 @@ module.exports = {
             description: "Richard Ostler, a former YSA Bishop who had LGBTQ members in his ward, will be discussing ministering principals to better meet the spiritual needs of LGBTQ Latter-day Saints, to help them feel a sense of belonging, and to better use their contributions to help us become the body of Christ that Paul spoke about in Corinthians.",
         },
         {
-            title: "Keys to Flourishing as a Sexual Minority: What the Research Says",
+            title: "How to Heal From Broken Female Connections",
             room: rooms.deer,
-            demographic: demographics.general,
+            demographic: demographics.ssa_women,
             speakers: [
-                speakers.ty_mansfield,
-                speakers.tyler_lefevor,
+                speakers.shannon_rants,
             ],
-            description: "Sexuality/sexual identity and relationship choices can be personally sensitive and politically divisive. In order to be as comprehensive and inclusive as possible of different individuals’ and communities’ experiences, an ideologically diverse research team collaborated to explore pathways to flourishing within one of four major life options for sexual minorities: 1) single and celibate; 2) single and not celibate; 3) a heterosexual/mixed-orientation relationship; or 4) in a same-sex relationship. We will explore the findings of our research team and how they can provide insight and direction for those who navigating conflicts between sexuality and faith.",
+            description: "Tired of always giving? Tired of being lonely? Tired of being hurt? We'll explore how to move through the pain that we have experienced with other women and how to take steps towards healing within, with others, and with God.",
         },
         {
             title: "Healthy Attachment, Connection, and the Power of Relationships in Recovery from Unwanted Thinking and Addictive Behaviors",
@@ -53,13 +52,14 @@ module.exports = {
             description: "",
         },
         {
-            title: "How to Heal From Broken Female Connections",
+            title: "Keys to Flourishing as a Sexual Minority: What the Research Says",
             room: rooms.zion,
-            demographic: demographics.ssa_women,
+            demographic: demographics.general,
             speakers: [
-                speakers.shannon_rants,
+                speakers.ty_mansfield,
+                speakers.tyler_lefevor,
             ],
-            description: "Tired of always giving? Tired of being lonely? Tired of being hurt? We'll explore how to move through the pain that we have experienced with other women and how to take steps towards healing within, with others, and with God.",
+            description: "Sexuality/sexual identity and relationship choices can be personally sensitive and politically divisive. In order to be as comprehensive and inclusive as possible of different individuals’ and communities’ experiences, an ideologically diverse research team collaborated to explore pathways to flourishing within one of four major life options for sexual minorities: 1) single and celibate; 2) single and not celibate; 3) a heterosexual/mixed-orientation relationship; or 4) in a same-sex relationship. We will explore the findings of our research team and how they can provide insight and direction for those who navigating conflicts between sexuality and faith.",
         },
         {
             title: "Navigating Through Betrayal Trauma in Marriage",
