@@ -93,7 +93,7 @@ module.exports = {
     },
     vaughn_armstrong: {
         name: "Vaughn Armstrong",
-        bio: "",
+        bio: "A native Arizonian, Vaughn grew up in an active household with five other siblings. As a return missionary and graduate from BYU, Vaughn recognized his attractions to men while in college. His desire to live by faith and his own personal covenants set him on a difficult path of discovery which lead him to North Star. He’s grateful for the support, resources, personal growth, friendships, forgiveness, and miracles he’s experienced while on his journey.",
         photo: "",
     },
     bob_and_deb_stevens: {
@@ -163,7 +163,7 @@ module.exports = {
         photo: "",
     },
     kurt_francom: {
-        name: "Kurt Francom.",
+        name: "Kurt Francom",
         bio: "Kurt is Executive Director of Leading Saints, a non-profit organization dedicated to helping Latter-day Saint lay leaders be better prepared to lead. Kurt hosts the Leading Saints podcast. He enjoys drawing caricatures, playing basketball, reading, and college football. He has served in many positions in the church including a full-time mission, Bishop and in a Stake Presidency. He lives in Holladay, Utah, with is his lovely wife Alanna. They are blessed to have a little girl and boy.",
         photo: "",
     },
@@ -217,7 +217,7 @@ module.exports = {
     },
     jeff_bennion: {
         name: "Jeff Bennion",
-        bio: "",
+        bio: "Jeff is a lifelong member of the Church. He married Tanya 15 years ago, and they live in Holladay with their son. Jeff served a mission in Brussels, Belgium and has served throughout the church. He is a co-founder of North Star, and currently serves on the Board. He works in real estate property management and recently earned a master’s degree in Marriage and Family Therapy and has a part-time therapy practice.",
         photo: "",
     },
     michael_goodman: {
@@ -369,7 +369,7 @@ module.exports = {
     },
     lisa_arnold: {
         name: "Lisa Arnold",
-        bio: "",
+        bio: "Lisa, mother of five and grandmother of ten, joined the Church at 26 and raised her children in the gospel. Lisa's journey started when her eldest daughter, Becky Borden, came out as a lesbian. It has been a journey of self-discovery, accompanied with its fair share of struggles and triumphs. She wishes to share her journey with Christ; what she learned and how she applied it in her life and the life of her daughter.",
         photo: "",
     },
     tanya_bennion: {
