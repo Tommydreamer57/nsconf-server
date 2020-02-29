@@ -9,12 +9,12 @@ module.exports = {
         {
             title: "General",
             description: "Provide general feedback about the conference this year.",
-            url: "",
+            url: "https://forms.gle/madQ6mmJMKxmem288",
         },
         {
             title: "Volunteer",
             description: "Sign up to volunteer for North Star International.",
-            url: "",
+            url: "https://forms.gle/ckFTTcfrjhqHwFkXA",
         },
         {
             title: "Social Event",
