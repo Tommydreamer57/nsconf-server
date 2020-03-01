@@ -9,6 +9,7 @@ const {
         ballroom,
         arches,
         deer,
+        zion,
     },
 } = require('../locations');
 const {
@@ -84,14 +85,13 @@ module.exports = {
         title: "Friday Fun",
         time: "6:00pm - 7:30pm",
         type: social,
-        room: "TBD",
+        room: zion,
         description: "Stay after the Friday afternoon keynote to enjoy live music, games, and appetizers, and connect with friends you've made at the conference. (There will be a space for millennials to gather afterward, as well as the youth talent show)",
     },
     millennialSocial: {
         title: "Young Adult Social (18-30)",
         time: "7:00pm - 10:00pm",
         type: social,
-        room: "TBD",
         description: "",
     },
     sundaySharing: {
