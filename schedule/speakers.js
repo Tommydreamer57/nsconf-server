@@ -96,8 +96,8 @@ module.exports = {
         bio: "A native Arizonian, Vaughn grew up in an active household with five other siblings. As a return missionary and graduate from BYU, Vaughn recognized his attractions to men while in college. His desire to live by faith and his own personal covenants set him on a difficult path of discovery which lead him to North Star. He’s grateful for the support, resources, personal growth, friendships, forgiveness, and miracles he’s experienced while on his journey.",
         photo: "",
     },
-    bob_and_deb_stevens: {
-        name: "Bob and Deb Stevens",
+    bob_and_debbie_stevens: {
+        name: "Bob and Debbie Stevens",
         bio: "",
     },
     liv_and_matthew_haynes: {

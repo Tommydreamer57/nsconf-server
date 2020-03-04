@@ -16,7 +16,7 @@ module.exports = {
             demographic: demographics.general,
             moderator: speakers.vaughn_armstrong,
             panelists: [
-                speakers.bob_and_deb_stevens,
+                speakers.bob_and_debbie_stevens,
                 speakers.liv_and_matthew_haynes,
                 speakers.charles_and_julee_hamilton,
             ],
