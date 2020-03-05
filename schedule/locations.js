@@ -15,6 +15,7 @@ module.exports = {
         exec: "Executive Board",
         ballroom: "Grand Ballroom",
         arches: "Arches Ballroom",
+        north_star: "North Star",
         powder: "Powder Mountain",
         sidewinder: "Sidewinder",
         snowbird: "Snowbird",

@@ -73,7 +73,7 @@ module.exports = {
         },
         {
             title: "Trans Spouses Facilitated Discussion: Closed Door Session",
-            room: rooms.cottonwood,
+            room: rooms.north_star,
             demographic: demographics.spouses,
             facilitator: speakers.shannon_rants,
             description: "This will be facilitated by Shannon Rants as a safe place to ask questions, listen, and hold space for each other who are navigating transgender relationships.",

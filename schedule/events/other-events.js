@@ -60,7 +60,7 @@ module.exports = {
     },
     registration: {
         title: "Registration",
-        time: "7:00am - 9:00am",
+        time: "8:00am - 9:00am",
         type: social,
         location: sheraton,
         description: "",
