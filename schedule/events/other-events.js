@@ -6,8 +6,9 @@ const {
         jordan,
     },
     rooms: {
-        ballroom,
         arches,
+        ballroom,
+        cottonwood,
         deer,
         zion,
     },
@@ -92,6 +93,7 @@ module.exports = {
         title: "Young Adult Social (18-30)",
         time: "7:00pm - 10:00pm",
         type: social,
+        room: cottonwood,
         description: "",
     },
     sundaySharing: {
