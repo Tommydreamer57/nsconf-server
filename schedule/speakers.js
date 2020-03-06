@@ -244,7 +244,7 @@ module.exports = {
         bio: "",
     },
     robert_burgraaf: {
-        name: "Robert Burgraaf",
+        name: "Robert Burggraaf",
         bio: "",
     },
     tyler_lefevor: {
