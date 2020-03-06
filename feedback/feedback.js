@@ -14,7 +14,7 @@ module.exports = {
         {
             title: "Volunteer",
             description: "Sign up to volunteer for North Star International.",
-            url: "https://forms.gle/ckFTTcfrjhqHwFkXA",
+            url: "https://forms.gle/QQrLN9brFM835pYP6",
         },
         {
             title: "Social Event",
