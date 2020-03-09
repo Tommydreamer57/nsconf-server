@@ -7,7 +7,7 @@ module.exports = [
     },
     {
         name: "AUDIO",
-        url: "https://vimeo.com/ondemand/northstar2018/256616872",
+        url: "https://vimeo.com/ondemand/2020nsconference",
         icon: "play-circle",
     },
 ];
